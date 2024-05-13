@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+}
+
+.app{
+    padding-right: 5px;
+    color: wheat;
+    background-color: #010c0ce8;
+    max-width: 100%;
+    max-height: 100%;
+    .navbar{
+        display: flex;
+        justify-content: end;
+        padding-right: 6%;
+        border-bottom: 3px #9f9abce8 solid;
+        padding-bottom: 7px;
+        .link{
+            text-decoration: none;
+            color: cyan;
+            font-size: 20px;
+            padding-right: 1%;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    .intro{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 9%;
+        .text{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .intro-title{
+                padding-top: 50px;
+                font-size: 50px;
+            }
+            .intro-content{
+                padding-top: 3%;
+                font-size: 20px;    
+                align-items: center;
+                width: 50%;
+            }
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        
+    }
+    .about{
+        padding-top: 7%;
+        width: 50%;
+        font-size: 18px;
+        padding-left: 13%;
+        text-align: end;
+    }
+    .projects{
+        display: flex;
+        gap: 100px;
+        flex-direction: column;
+        padding-top: 7%;
+        align-items: center;
+        .title{
+            width: 80%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .each-project{
+            width: 95%;
+            max-width: 1000px;
+            display: flex;
+            padding:  10px;
+            border-radius:  15px;
+            box-shadow: inset 0px 0px 10px lightgreen , 
+            0px 0px 15px gray;
+
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex :5;
+                padding-right: 20px;
+                .project-title{
+                    font-size: 20px;
+                }.desc{
+                    width: auto;
+                    padding-left: 5%;
+                    font-size: 18px;
+                    text-align: justify;
+                    
+                }.pfooter{
+                    display: flex;
+                    width: 250px;
+                    justify-content: space-between;
+                    img{
+                        border-radius: 60%;
+                        height: 30px;
+                    }
+                }
+            }
+            .pimg{
+                flex :1;
+
+            }
+        }
+        
+    }
+}

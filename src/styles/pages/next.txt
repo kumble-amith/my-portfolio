@@ -1,0 +1,9 @@
+gap - contents 
+add skills 
+Projects -center
+hover each - project shadow 
+project image border-radius 
+padding-each project increase
+font-family change 
+fonts and color change.
+skill content width fit-content
