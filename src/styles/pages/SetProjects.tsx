@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../../../assets/laptop-image.jpeg"
+import Github from "../../../assets/github.jpeg"
 
 interface Props{
     project : any;
@@ -25,7 +26,7 @@ function SetProjects({project}: Props) {
                     }
                 </div>
                 <div className="pfooter"> 
-                    <Link to={github}><img src="assets/github.jpeg" alt="Github"/></Link>
+                    <Link to={github}><img src={Github} alt="Github"/></Link>
                     <p>Date {date}</p>
                 </div>
             </div>

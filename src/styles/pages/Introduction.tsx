@@ -1,4 +1,5 @@
 
+import Logo from "../../../assets/laptop-image.jpeg"
 function Introduction() {
   return (
     <>
@@ -12,7 +13,7 @@ function Introduction() {
             My Home Town is Shivamogga and currently in Mysuru.
           </div>
         </div>  
-        <img src="assets/laptop-image.jpeg" alt="" />
+        <img src={Logo} alt="" />
       </div>
     </>
   )
