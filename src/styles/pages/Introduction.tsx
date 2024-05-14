@@ -6,7 +6,7 @@ function Introduction() {
     <div className="intro">
         <div className="text">
           <div className="intro-title">
-            Hi I am Amith K Kumble
+            Hi I am <span className="my-name">Amith Kumble</span> 
           </div>
           <div className="intro-content">
             I'am an 6th sem Engineering Student form JSSSTU.

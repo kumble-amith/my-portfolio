@@ -19,9 +19,11 @@ function SetProjects({project}: Props) {
                 <div>
                     {
                         descriptions.map((description: string) => (
-                            <p className="desc">
-                                 {`-> ${description}`}
-                            </p>
+                            <ul className="desc">
+                                <li>
+                                    <p className="bullet-head">&#x27A3;</p>{description}
+                                </li>
+                            </ul>
                         ))
                     }
                 </div>
