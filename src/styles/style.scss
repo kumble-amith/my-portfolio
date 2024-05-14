@@ -16,7 +16,8 @@
     justify-content: end;
     padding-right: 6%;
     border-bottom: 3px #9f9abce8 solid;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 17px;
     .link {
       text-decoration: none;
       color: cyan;
@@ -31,7 +32,7 @@
     justify-content: space-around;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 9%;
+    padding-top: 5%;
     .text {
       width: 60%;
       display: flex;
@@ -42,10 +43,11 @@
         font-size: 50px;
         .my-name {
           font-family: "Poetsen One", sans-serif;
-            color: thistle;
+          color: thistle;
         }
       }
       .intro-content {
+        line-height: 33px;
         padding-top: 3%;
         font-size: 20px;
         align-items: center;
@@ -53,16 +55,19 @@
       }
     }
     img {
-      height: 200px;
-      width: 200px;
+      padding-top: 50px;
+      padding-right: 100px;
+      width: 275px;
     }
   }
   .about {
-    padding-top: 7%;
+    padding-top: 6.25%;
     width: 50%;
-    font-size: 18px;
+    font-size: 19px;
     padding-left: 13%;
+    line-height: 29px;
     text-align: end;
+    font-family: "Courier New", Courier, monospace;
   }
   .projects {
     display: flex;
@@ -74,6 +79,8 @@
       width: 80%;
       font-size: 30px;
       font-weight: bold;
+      display: flex;
+      justify-content: space-around;
     }
     .each-project {
       width: 95%;
