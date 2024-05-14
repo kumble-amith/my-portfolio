@@ -13,7 +13,7 @@ function SetProjects({ project }: Props) {
 
   return (
     <>
-      Help  Thilak NV 
+      Help Thilak NV is my fried
       <div className="each-project">
         <div className="content">
           <p className="project-title">{name}</p>
