@@ -13,7 +13,7 @@ function SetProjects({ project }: Props) {
 
   return (
     <>
-      Help Fuck Thilak
+      Help  Thilak NV 
       <div className="each-project">
         <div className="content">
           <p className="project-title">{name}</p>
