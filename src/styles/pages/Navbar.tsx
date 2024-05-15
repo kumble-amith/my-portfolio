@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom"
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function Navbar() {
   return (
     <>
       <div className="navbar">
-        
-        <Link to="/home" className="link">Home</Link>
-        <Link to="/about" className="link">About</Link>
-        <Link to="/projects" className="link">Projects</Link>
-        {/* <Link to="/contact" className="link">Contact</Link> */}
-        
+        <AnchorLink href="#intro" className="link">
+          Home
+        </AnchorLink>
+        <AnchorLink href="#projects" className="link">
+          Projects
+        </AnchorLink>
       </div>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

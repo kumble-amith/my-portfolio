@@ -12,17 +12,20 @@
   max-width: 100%;
   max-height: 100%;
   .navbar {
-    display: flex;
-    justify-content: end;
-    padding-right: 6%;
+    padding-left: 80%;
+    padding-right: 8%;
     border-bottom: 3px #9f9abce8 solid;
     padding-top: 10px;
     padding-bottom: 17px;
+    position: fixed;
+    width: 100%;
+    background-color: #161616;
+    z-index: 1;
     .link {
       text-decoration: none;
       color: cyan;
       font-size: 20px;
-      padding-right: 1%;
+      padding-right: 3%;
       text-decoration: none;
       cursor: pointer;
     }

@@ -41,7 +41,7 @@ function Projects() {
   ];
   return (
     <>
-      <div className="projects">
+      <div className="projects" id="projects">
         <p className="title">Projects</p>
         {porjects.map((project, i) => (
           <SetProjects key={i} project={project} />
