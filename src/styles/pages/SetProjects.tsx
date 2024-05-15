@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/laptop-image.jpeg";
+// import Logo from "../../../assets/laptop-image.jpeg";
 import Github from "../../../assets/github.jpeg";
 
 interface Props {
