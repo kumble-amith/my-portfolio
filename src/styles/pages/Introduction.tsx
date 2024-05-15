@@ -13,6 +13,7 @@ function Introduction() {
             My Home Town is Shivamogga and currently in Mysuru.
           </div>
         </div>  
+        
         <img src={Logo} alt="" />
       </div>
     </>

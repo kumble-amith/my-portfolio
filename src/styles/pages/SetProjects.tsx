@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import Logo from "../../../assets/laptop-image.jpeg";
 import Github from "../../../assets/github.jpeg";
 
 interface Props {
@@ -10,6 +9,7 @@ function SetProjects({ project }: Props) {
   const github = project.github;
   const descriptions = project.description;
   const date = project.date;
+  const photo = project.photo;
 
   return (
     <>
@@ -17,10 +17,12 @@ function SetProjects({ project }: Props) {
         <div className="content">
           <p className="project-title">{name}</p>
           <div>
-            {descriptions.map((description: string) => (
+            {descriptions.map((description: string, i: number) => (
               <ul className="desc">
                 <li>
-                  <p className="bullet-head">&#x27A3;</p>
+                  <p className="bullet-head" key={i}>
+                    &#x27A3;
+                  </p>
                   {description}
                 </li>
               </ul>
@@ -34,8 +36,8 @@ function SetProjects({ project }: Props) {
           </div>
         </div>
         <img
-          src="https://github.com/kumble-amith/my-portfolio/blob/main/assets/github.jpeg"
-          alt="L"
+          src={`https://github.com/kumble-amith/my-portfolio/blob/main/assets/${photo}?raw=true`}
+          // alt="L"
           className="pimg"
         />
       </div>
