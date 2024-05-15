@@ -33,7 +33,7 @@ function SetProjects({ project }: Props) {
             <p>Date {date}</p>
           </div>
         </div>
-        <img src={Logo} alt="L" className="pimg" />
+        <img src="assets/laptop-image.jpeg" alt="L" className="pimg" />
       </div>
     </>
   );
