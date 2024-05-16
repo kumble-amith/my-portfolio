@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Github from "../../../assets/github.jpeg";
-
+import EXP from "../../../assets/exp-track.png";
 interface Props {
   project: any;
 }
@@ -37,7 +37,8 @@ function SetProjects({ project }: Props) {
         </div>
         <img
           src={`https://github.com/kumble-amith/my-portfolio/blob/main/assets/${photo}?raw=true`}
-          // alt="L"
+          alt="L"
+          // src={EXP}
           className="pimg"
         />
       </div>
