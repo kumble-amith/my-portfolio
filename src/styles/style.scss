@@ -11,23 +11,34 @@
   background-color: #161616;
   max-width: 100%;
   max-height: 100%;
+  padding-bottom: 7%;
+
   .navbar {
-    padding-left: 80%;
-    padding-right: 8%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
     border-bottom: 3px #9f9abce8 solid;
     padding-top: 10px;
-    padding-bottom: 17px;
+    padding-bottom: 12px;
     position: fixed;
-    width: 100%;
     background-color: #161616;
     z-index: 1;
-    .link {
-      text-decoration: none;
-      color: cyan;
-      font-size: 20px;
-      padding-right: 3%;
-      text-decoration: none;
-      cursor: pointer;
+    .contact {
+      img {
+        height: 30px;
+        // border-radius: 25%;
+        padding-right: 15px;
+      }
+    }
+    .nav-links {
+      padding-left: 50%;
+      .link {
+        text-decoration: none;
+        color: cyan;
+        font-size: 20px;
+        padding-right: 40%;
+        cursor: pointer;
+      }
     }
   }
   .intro {
