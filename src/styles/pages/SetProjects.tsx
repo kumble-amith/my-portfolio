@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Github from "../../../assets/github.jpeg";
-import EXP from "../../../assets/exp-track.png";
 interface Props {
   project: any;
 }
