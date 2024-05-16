@@ -53,7 +53,7 @@ function Projects() {
         "The current implemented features are to only add and edit the expense of a person.Supabase is used as backed database to the project.",
       ],
       date: "4/24",
-      photo: "exp-track.png",
+      photo: "exp-tracks.png",
     },
   ];
   return (
